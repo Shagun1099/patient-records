@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
-import {useParams} from 'react-router-dom';
+import {useParams,useNavigate} from 'react-router-dom';
 import { getPatientById } from '../helpers/dummy-data';
 import { Avatar } from '@mui/material';
 
@@ -8,11 +8,15 @@ const PatientDetail = () => {
 
     const {id} = useParams();
     const [data,setData] = useState({});
+    const navigate = useNavigate();
 
     useEffect(()=>{
      if(!id) return;
      const info = getPatientById(id);
-     console.log(info);
+     if(!info){
+        navigate(-1);
+        return;
+     }
      setData(info);
     },[id]);
 
