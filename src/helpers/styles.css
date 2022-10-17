@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.authContainer{
+    display: grid;
+    place-items: center;
+}
+
+.authBox{
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color:white;
+    padding: 40px 10px;
+    width: min(95%,700px);
+    text-align: center;
+    min-height: 400px;
+    box-shadow: 1px 2px 6px;
+}
+
+.table {
+    background: white;
+    max-width: 1300px;
+    border-radius: 6px;
+    margin: 20px auto;
+    border:1px solid #eee;
+}
+
+.tableHeader{
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.tableHeader > p,.tableBody > div.tableRow > p{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tableRow{
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.tableRow > p{
+    font-weight: 400 !important;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+}

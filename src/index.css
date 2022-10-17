@@ -1,13 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  background: #eee;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --primary-color: #21b394;
+}
+
+.mt-1 {
+  margin-top: 5px !important;
+}
+
+.mt-2 {
+  margin-top: 10px !important;
+}
+
+.mt-4 {
+  margin-top: 20px !important;
+}
+
+.mt-6 {
+  margin-top: 30px !important;
+}
+
+.mt-12{
+  margin-top: 60px !important;
+}
+
+.mx-auto {
+  margin: 0 auto !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-14 {
+  font-size: 15px !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.ml-2{
+  margin-left: 10px;
+}
+
+.mr-2{
+  margin-right: 10px;
+}
+
+.ml-4{
+  margin-left: 20px;
+}
+
+.mr-4{
+  margin-right: 20px;
+}
+
+.pt-header{
+  padding-top: 100px;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.flex1{
+  flex:1;
+}
+
+.w-10p{
+  width: 10%;
+}
+
+.w-20p{
+  width: 20%;
+}
+
+.mx-1{
+  margin: 0 5px;
+}
+
+.py-4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-1{
+   top: 10px;
+}
+
+.right-1{
+  right:10px;
+}
+
+.w-300{
+  width: 300px;
+}
+
+.text-left{
+  text-align: left;
 }
